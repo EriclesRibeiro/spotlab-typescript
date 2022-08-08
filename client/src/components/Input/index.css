@@ -1,0 +1,26 @@
+.input_group {
+    width: 100%;
+    padding: 0 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.input_group .input_label {
+    color: var(--sl-dark);
+}
+.input_group input {
+    padding: 10px 15px;
+    background-color: var(--sl-default);
+    border: none;
+    border-radius: 5px !important;
+    font-size: 14px;
+    color: var(--sl-dark);
+}
+.input_group input:focus {
+    outline: none;
+}
+.input_group input::placeholder {
+    color: var(--sl-dark);
+    opacity: 0.2;
+}
